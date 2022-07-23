@@ -1,0 +1,62 @@
+.header {
+  margin: 0;
+}
+
+.nav {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ul {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  gap: 50px;
+}
+
+.li {
+  color: hsl(0, 0%, 41%);
+  cursor: pointer;
+  position: relative;
+}
+
+.li:hover {
+  color: hsl(0, 0%, 8%);
+}
+
+.header__span {
+  margin-right: 5px;
+}
+
+.header__button {
+  background: none;
+  border: 1px solid #333333;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.card {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  box-shadow: 1px 1px 1px 2px rgba(0, 0, 255, 0.2);
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  top: 30px;
+}
+
+.card_div {
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
+  width: max-content;
+  gap: 10px;
+}
